@@ -7,7 +7,6 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: pink;
 }
 
 h1,
@@ -84,26 +83,27 @@ nav a:hover {
 #me {
     margin-top: 20px;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .mylife {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .mylife img {
     width: 200px;
     clip-path: ellipse(50% 50%);
     margin-top: 20px;
+    margin-left: 620px;
 }
 
-.mylife p {
-    opacity: 0;
-}
-
-.mylife p:hover {
-    opacity: 1;
+.myself {
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
@@ -119,7 +119,6 @@ nav a:hover {
 .skills {
     display: flex;
     flex-direction: row;
-    background-color: lightsalmon;
 }
 
 .skill1,
@@ -132,6 +131,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    margin-left: 10px;
 }
 
 .skills figure img {
@@ -153,6 +153,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 }
 
 .first,
@@ -160,18 +161,6 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.project figure img {
-    -webkit-filter: blur(3px);
-    filter: blur(3px);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-.project figure:hover img {
-    -webkit-filter: blur(0);
-    filter: blur(0);
 }
 
 
@@ -236,10 +225,7 @@ input [type=button] {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-image: url(image/pastel.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: fixed;
     height: 150px;
     padding-top: 20px;
+    background-color: lightyellow;
 }
