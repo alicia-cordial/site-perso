@@ -25,7 +25,7 @@ header {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: lightpink;
+    background-color: #E0BBE4;
 }
 
 ul {
@@ -100,12 +100,6 @@ nav a:hover {
     margin-left: 620px;
 }
 
-.myself {
-    background-image: url(image/background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
 
 /*SKILLS*/
 
@@ -114,6 +108,7 @@ nav a:hover {
     flex-direction: column;
     height: 500px;
     width: 100%;
+    background-color: #D291BC;
 }
 
 .skills {
@@ -154,6 +149,7 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    background-color: #FEC8D8;
 }
 
 .first,
@@ -175,6 +171,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: space-around;
+    background-color: #FFDFD3;
 }
 
 #formulaire {
