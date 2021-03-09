@@ -25,7 +25,7 @@ header {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #E0BBE4;
+    background-color: rgb(135, 206, 250, 0.5);
 }
 
 ul {
@@ -58,6 +58,10 @@ nav a:hover {
 
 
 /*PARTIES*/
+
+.myself {
+    background-image: linear-gradient(to right bottom, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
+}
 
 .references {
     position: fixed;
@@ -108,7 +112,6 @@ nav a:hover {
     flex-direction: column;
     height: 500px;
     width: 100%;
-    background-color: #D291BC;
 }
 
 .skills {
@@ -144,10 +147,6 @@ nav a:hover {
 
 /*PROJETS*/
 
-#projects {
-    background-color: #FEC8D8;
-}
-
 .project {
     display: flex;
     flex-direction: column;
@@ -173,7 +172,6 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: space-around;
-    background-color: #FFDFD3;
 }
 
 #formulaire {
