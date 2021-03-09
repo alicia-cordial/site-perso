@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     background-size: 100%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 
 }
 
@@ -40,7 +40,8 @@ article {
 
 .prenom {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    margin: auto;
 }
 
 .prenom p {
