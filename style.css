@@ -1,0 +1,59 @@
+/*GENERAL*/
+
+* {
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    border: 1px solid black;
+
+}
+
+body {
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+body, main, article, a {
+    display: flex;
+    flex-direction: column;
+}
+
+
+main {
+    width: 100%;
+    min-height: 80vh;
+    flex-grow: 2;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: lightpink;
+}
+
+
+article {
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    height: 100%;
+}
+
+
+.prenom {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.prenom p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 1.6em;
+}
+
+.progress
+{
+    background-color: violet;
+    position: fixed;
+    width: 0%;
+    height: 30px;
+    background-color: lightskyblue;;
+}
