@@ -38,6 +38,43 @@ article {
 }
 
 
+/*INDEX*/
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:90%;
+    justify-content: center;
+    border-collapse: collapse;
+    border: 2px solid white;
+    margin-left: 5%;
+}
+
+
+
+.intro h1{
+    text-align: center;
+    font-size: 3em;
+    color: red;
+}
+
+
+.intro a {
+    text-decoration: none;
+}
+
+.intro a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px white;
+}
+
+
+
+
+
+/*PORTFOLIO*/
+
 .prenom {
     display: flex;
     flex-direction: row;
@@ -56,5 +93,5 @@ article {
     position: fixed;
     width: 0%;
     height: 30px;
-    background-color: lightskyblue;;
+    background-color: lightskyblue;
 }

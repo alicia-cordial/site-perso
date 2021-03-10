@@ -8,18 +8,19 @@
     <title>Portfolio</title>
 </head>
 
-<body class="index">
+<body>
 <header>
     header
 </header>
 
 <main>
-    <section class="intro">
-   <a href="pages/portfolio.php"><h1>BIENVENUE </h1>
-    <h1>DANS</h1>
-    <h1>MON</h1>
-       <h1>PORTFOLIO</h1></a>
+    <progress id="progress"></progress>
+
+    <section class="prenom">
+        <p>CORDIAL</p>
+        <p>ALICIA</p>
     </section>
+
 
 </main>
 <footer>
