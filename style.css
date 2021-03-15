@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     background-size: 100%;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
 
 }
 
@@ -38,6 +38,74 @@ article {
 }
 
 
+
+
+
+/*HEADER*/
+
+
+.menu {
+
+    flex-basis: 100%;
+    max-height: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.menu-checkbox:checked ~ .menu {
+    display: block;
+    margin: 1em 0;
+    max-height: none;
+
+}
+
+.menu-checkbox {
+    opacity: 0;
+    position: absolute;
+    top: -1000px;
+}
+
+.menu-checkbox:focus + .menu-toggle {
+    outline: #00A1A1 auto 5px;
+}
+
+.menu-toggle {
+    padding: .5em 1em;
+}
+
+
+.nav-wrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.menu li {
+    border: none;
+    display: inline-block;
+}
+
+.menu li a {
+    padding: .5em;
+}
+
+@media screen and (min-width: 65em) {
+    .menu {
+        margin: 0;
+        max-height: 1000px;
+        opacity: 1;
+        padding: 0;
+        visibility: visible;
+    }
+
+    .menu-toggle,
+    .menu-checkbox {
+        display: none;
+    }
+}
+
 /*INDEX*/
 
 .intro{
@@ -69,10 +137,6 @@ article {
     text-shadow: 2px 2px 2px white;
 }
 
-
-
-
-
 /*PORTFOLIO*/
 
 .prenom {
@@ -93,5 +157,7 @@ article {
     position: fixed;
     width: 0%;
     height: 30px;
-    background-color: lightskyblue;
+
 }
+
+
