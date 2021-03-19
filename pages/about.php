@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+    <link rel= "stylesheet" href= "../style/header.css">
     <link rel= "stylesheet" href= "../style.css">
-    <title>Gluten Tag</title>
 </head>
 <body>
 <header>
-    header
+    <input type="checkbox" id="menu-toggle"/>
+    <label id="trigger" for="menu-toggle"></label>
+    <label id="burger" for="menu-toggle"></label>
+    <ul id="menu">
+        <li><a href="portfolio.php"><h2>HOME</h2><p>Fresh start</p></a></li>
+        <li><a href="portfolio.php"><h2>WORK</h2><p>some of my work</p></a></li>
+        <li><a href="about.php"><h2>ABOUT</h2><p>Me, Myself and I</p></a></li>
+    </ul>
 </header>
 
 <main>
@@ -82,13 +84,6 @@
     footer
 </footer>
 
-<!-- Compiled and minified JavaScript -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $('.sidenav').sidenav();
-    });
-</script>
+
 </body>
 </html>

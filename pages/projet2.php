@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../style/header.css">
-    <title>Portfolio</title>
-</head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+    <link rel= "stylesheet" type="text/css" href= "../style/header.css">
+    <title>PROJET 1</title>
 
 <body>
 <header>
@@ -21,23 +19,5 @@
     </ul>
 </header>
 
-<main>
-    <progress id="progress"></progress>
-
-    <section class="prenom">
-        <p>CORDIAL</p>
-        <p>ALICIA</p>
-    </section>
-
-
-</main>
-<footer>
-    footer
-</footer>
-
-
-<script type="text/javascript" src="script.js"></script>
-
 </body>
-
 </html>
