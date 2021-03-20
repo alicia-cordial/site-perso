@@ -1,13 +1,21 @@
 
-#mainCat {
+main {
     height: 100%;
 }
 
-#mainCat article {
+main article {
     display: flex;
-    height: 40vh;
+
     position: relative;
 }
+
+
+ h1{
+    text-align: center;
+}
+
+
+
 .Abdiv {
     height: 50%;
     width: 50%;

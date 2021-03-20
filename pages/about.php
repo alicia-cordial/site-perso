@@ -2,7 +2,7 @@
 
 
 $title = "About";
-$bodyname = "about";
+$bodyname = "About";
 
 session_start();
 

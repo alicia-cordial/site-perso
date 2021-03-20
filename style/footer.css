@@ -1,7 +1,7 @@
 /*FOOTER*/
 
 footer {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
     margin-top: 25px;
     opacity: 0.3;
     transition: 0.5s;
@@ -41,7 +41,7 @@ footer:hover {
 }
 
 footer a {
-    color: white;
+    color: black;
     display: inline;
 }
 

@@ -11,7 +11,7 @@
 body {
     min-height: 100vh;
     justify-content: space-between;
-    background-color: rgba(255, 182, 193, 0.5);
+
 }
 
 body, main, article, a {
@@ -73,102 +73,136 @@ article {
     text-shadow: 2px 2px 2px white;
 }
 
-/*PORTFOLIO*/
 
-.prenom {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
+
+/*BACKGROUND*/
+.About{
+    background-color: rgba(255, 182, 193, 0.5);
 }
 
-.prenom p {
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-size: 1.6em;
+.portfolio{
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+
+/*PORTFOLIO*/
+
+.main_portfolio{
+    background-color: lightgray;
 }
 
 .progress
 {
     background-color: violet;
     position: fixed;
-    width: 0%;
+    width: 0;
     height: 30px;
 
 }
 
 
-
-
-
-
-/*ABOUT*/
-h1{
+.text{
     text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.about{
+
+.me{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3em;
+}
+
+.presentation img{
+    border-radius: 20px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: 20px;
+
+}
+
+.presentation h3{
+    width: 50%;
+}
+
+.textme{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.1em;
+}
+
+.image{
+    display: flex;
+    margin: 20px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    align-self: center;
+
+}
+
+.competences{
+    display: flex;
+    flex-direction: column;
 }
 
 
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}
-
-.div1 { grid-area: 1 / 2 / 2 / 3; }
-.div2 { grid-area: 1 / 4 / 2 / 5; }
-.div3 { grid-area: 3 / 2 / 4 / 3; }
-.div4 { grid-area: 3 / 4 / 4 / 5; }
-.div5 { grid-area: 4 / 3 / 5 / 4; }
-
-.div1{
-    background-color: yellow;
-    background-size: cover;
+.competences h3{
     text-align: center;
+    font-size: 1.5em;
 }
 
-.div2{
-    background-color: red;
-    background-size: cover;
+.columns{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.comp{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 20px;
     text-align: center;
+    box-shadow: 2px 2px 2px white;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgba(100,149,237, 0.5);
 }
 
-.div3{
-    background-color: dodgerblue;
-    background-size: cover;
-    text-align: center;
+@media (max-width: 1000px) {
+
+    .columns{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
 }
 
-.div4{
-    background-color: blueviolet;
-    background-size: cover;
-    text-align: center;
+.comp h4 {
+    font-size: 1.2em;
+
+
+
 }
 
-.div5{
-    background-color: green;
-    background-size: cover;
-    text-align: center;
-}
+.comp p{
+    font-size: 1.1em;
 
-.div5 a, .div2 a, .div4 a{
-    color: black;
-}
-
-.div5 a:hover, .div2 a:hover, .div4 a:hover{
-    color: fuchsia;
-    text-shadow: 1px 1px lightpink;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  .parent{
-      display: flex;
-      flex-direction: column;
-  }
 }
