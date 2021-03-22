@@ -185,7 +185,8 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @-webkit-keyframes arrow-jump {
@@ -204,19 +205,6 @@ button:hover{
     animation:         arrow-jump 1.5s infinite;
 }
 
-
-/*IMAGE*/
-.image{
-    display: flex;
-    margin: 20px;
-    border-collapse: collapse;
-    border: 2px solid black;
-    height: 400px;
-    width: 400px;
-    overflow: hidden;
-    align-self: center;
-
-}
 
 
 

@@ -40,9 +40,7 @@ session_start();
         <button class="fuchsia" onclick = "changeColor('fuchsia');">Britney Bitch </button>
     </section>
 </section>
-        <section class="image">
-        <!--<img src="../image/montage.jpg" alt="floral"/>-->
-    </section>
+
 
 <!---------------------PRESENTATION--------------------------->
     <section class="text">
