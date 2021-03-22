@@ -7,3 +7,4 @@ function color() {
     document.getElementById("progress").style.width = scrolled + "%";
 }
 
+
