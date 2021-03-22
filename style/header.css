@@ -17,7 +17,7 @@
     }
 }
 
-li, a {
+header li, a {
     margin: 75px 0 -55px 0;
     color: black;
     font-weight: 700;
@@ -27,13 +27,14 @@ li, a {
     list-style: none;
     outline: 0;
     display: none;
+    background-color: orange;
 }
-li {
+header li {
     width: 230px;
     text-indent: 56px;
 }
 
-a:focus {
+header a:focus {
     display: block;
     color: black;
     background-color: #eee;
@@ -41,7 +42,7 @@ a:focus {
 }
 
 
-li:hover{
+header li:hover{
 
     background-image: url("../image/gradient.png");
     width: 100%;

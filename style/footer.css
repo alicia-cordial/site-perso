@@ -1,39 +1,14 @@
 /*FOOTER*/
 
 footer {
+    display: flex;
+    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 25px;
     opacity: 0.3;
     transition: 0.5s;
     padding: 5px;
-}
 
-.footerinfos {
-    display: flex;
-    flex-direction: row;
-}
-
-.social {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-
-.imgsocial {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-}
-
-footer img {
-    opacity: 0.5;
-    filter: invert(100%);
-    transition: 0.5s;
-}
-
-.imgsocial a:hover img {
-    opacity: 1;
 }
 
 footer:hover {
@@ -43,20 +18,10 @@ footer:hover {
 footer a {
     color: white;
     display: inline;
+    background-color: transparent;
+    margin: auto;
 }
 
-footer .newsletter {
-    text-align: center;
-}
-
-footer span {
-    opacity: 0;
-    transition: 0.5s;
-}
-
-footer a:hover span {
-    opacity: 1;
-}
 
 
 @media screen and (max-width: 640px) {
@@ -68,7 +33,31 @@ footer a:hover span {
 
 }
 
+
+.footerinfos {
+    display: flex;
+    flex-direction: column;
+}
+
+footer img {
+    opacity: 0.5;
+    filter: invert(100%);
+    transition: 0.5s;
+}
+
+.imgsocial {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgsocial a:hover img {
+    opacity: 1;
+}
+
 .production{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    color: white;
 }

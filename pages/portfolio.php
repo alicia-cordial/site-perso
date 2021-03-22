@@ -2,7 +2,7 @@
 
 
 $title = "Portfolio";
-$bodyname = "porfolio";
+$bodyname = "portfolio";
 
 session_start();
 
@@ -56,9 +56,6 @@ session_start();
             <h3>Je m'appelle Alicia. Je suis en formation de développement web à LaPlateforme_ basée à Marseille.</h3>
         </article>
 
-        <article class="textme">
-            <p><strong>Je suis actuellement en préparation de mon projet professionnel de fin d'année.</strong> Je suis à la recherche, à partir de septembre 2021, d'une alternance dans une entreprise dans les régions PACA et Rhône-Alpes. Je suis plus intéressée par le front-end mais je suis ouverte à un peu de back-end. Je suis très interessée par les différentes cultures, les langues et différents projets qui me permettent de créer(couture, peinture, développement web). Si jamais mon profil vous intéresse, n'hésiter pas à coutinuer votre séjour sur mon site. </p>
-        </article>
     </section>
 
 <section class="arrow">
@@ -82,10 +79,10 @@ session_start();
                 <img src="../image/css3.png" alt="css"/>
                 <img src="../image/js.png" alt="js"/>
                 <img src="../image/php.png" alt="php"/>
-                <img src="../image/sql.png" alt="sql"/>
                 </section>
 
             <section class="column">
+                <img src="../image/icons8-sql-96.png" alt="sql"/>
                 <img src="../image/github.png" alt="github"/>
                 <img src="../image/icons8-wordpress-128.png" alt="wordpress"/>
             </section>
