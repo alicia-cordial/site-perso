@@ -16,6 +16,8 @@ session_start();
         function changeColor(color) {
             document.body.style.background = color;
         }
+
+
     </script>
 
 
@@ -35,6 +37,7 @@ session_start();
         <button class="gray" onclick = "changeColor('slategray');">Nightsky Mood</button>
         <button class="mint" onclick = "changeColor('honeydew');">Mint Ice Cream</button>
         <button class="lavender" onclick = "changeColor('lavender');">Lavender field </button>
+        <button class="fuchsia" onclick = "changeColor('fuchsia');">Britney Bitch </button>
     </section>
 </section>
         <section class="image">
