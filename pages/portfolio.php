@@ -53,7 +53,9 @@ session_start();
     <section class="me" id="apropos">
         <article class="presentation">
             <img src="../image/IMG_0501.jpg" alt="moi" width="300px" height="350px"/>
-            <h3>Je m'appelle Alicia. Je suis en formation de développement web à LaPlateforme_ basée à Marseille.</h3>
+        </article>
+        <article class="texte_pres">
+            <h3>Bonjour, moi c'est Alicia. Je suis actuellement en formation de développement web sur LaPlateforme_ basée à Marseille.</h3>
         </article>
 
     </section>
@@ -107,41 +109,36 @@ session_start();
         <section id="portfolio" class="work">
             <div class="portfolio-div">
             <article class="bloc1">
-                <section>
-                    <figcaption> <h5>PROJET2</h5></figcaption>
-
-                    <a  href="projet1.html" class="lien-projet1"></a>
+                <section class="projet">
+                    <a  href="projet1.html" class="lien-projet1">
+                        <img src="../image/projet1.png" alt="projet1"/>
+                    </a>
                 </section>
 
-                <section>
-                    <figure>
-                        <figcaption> <h5>PROJET2</h5></figcaption>
-
-                        <a  href="projet1.html" class="lien-projet1"></a>
-                    </figure>
+                <section class="projet">
+                    <a  href="projet1.html" class="lien-projet1">
+                        <img src="../image/projet2.png" alt="projet2"/>
+                    </a>
                 </section>
 
-                <section>
-                    <figure>
-                        <figcaption> <h5>PROJET3</h5></figcaption>
+                <section class="projet">
+                    <a  href="projet1.html" class="lien-projet1">
+                        <img src="../image/projet3.png" alt="projet3"/>
+                    </a>
+                </section>
+            </article>
 
-                        <a  href="projet1.html" class="lien-projet1"></a>
-                    </figure>
+                <article class="bloc2">
+                <section class="projet">
+                    <a  href="projet1.html" class="lien-projet1">
+                        <img src="../image/projet4.png" alt="projet4"/>
+                    </a>
                 </section>
 
-                <section>
-                    <figure>
-                        <figcaption> <h5>PROJET4</h5></figcaption>
-
-                        <a  href="projet1.html" class="lien-projet1"></a>
-                    </figure>
-                </section>
-
-                <section>
-                    <figure>
-                        <figcaption> <h5>PROJET5</h5></figcaption>
-                        <img src="" alt/>
-                    </figure>
+                <section class="projet">
+                    <a  href="projet1.html" class="lien-projet1">
+                        <img src="../image/projet5.png" alt="projet5"/>
+                    </a>
                 </section>
 
 
@@ -153,6 +150,20 @@ session_start();
 
         </section>
     </section>
+
+        <section class="arrow">
+            <img src="../image/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
+        </section>
+
+        <section class="mail">
+
+
+            <article>
+            <a href="mailto:alicia.cordial@laplateforme.io"><img src="../image/icons8-important-mail-100.png" alt="mail"/></a>
+            </article>
+
+
+        </section>
 
 
     <!-------------------SCROLL------------------------------------------->

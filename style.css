@@ -12,6 +12,8 @@ body {
     min-height: 100vh;
     justify-content: space-between;
 
+    font-family: 'Inconsolata', monospace;
+
 }
 
 body, main, article, a {
@@ -107,8 +109,8 @@ button {
     border-radius: 50%;
     border: 2px solid black;
     margin: 15px;
-
-
+    color: black;
+    text-shadow: 0.4px 0.4px 0.4px black;
 }
 
 button:hover{
@@ -157,11 +159,8 @@ button:hover{
 }
 
 
+
 /*PORTFOLIO*/
-
-
-
-
 
 /*SCROLL*/
 
@@ -206,42 +205,7 @@ button:hover{
 }
 
 
-
-/*PRESENTATION*/
-
-.text{
-    text-align: center;
-    font-weight: bold;
-    font-size: 1em;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-
-.me{
-    display: flex;
-    flex-direction: column;
-}
-
-.presentation{
-    display: flex;
-    flex-direction: row;
-    font-size: 1.3em;
-}
-
-.presentation img{
-    border-radius: 20px;
-    border-collapse: collapse;
-    border: 2px solid black;
-    margin: 20px;
-
-}
-
-.presentation h3{
-    width: 50%;
-}
-
-
+/*IMAGE*/
 .image{
     display: flex;
     margin: 20px;
@@ -253,6 +217,43 @@ button:hover{
     align-self: center;
 
 }
+
+
+
+
+/*PRESENTATION*/
+
+.text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.me{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.me img{
+    border-radius: 20px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: 20px;
+
+}
+
+.me h3{
+    width: 50%;
+    font-size: 2.5em;
+}
+
+
 
 
 
@@ -315,16 +316,68 @@ button:hover{
 
 .work{
     width: 100%;
-    height: 500px;
-    background-color: grey;
+    height: 1000px;
+    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
 }
 
-.bloc1, .bloc2, .bloc3, .bloc4{
+.bloc1, .bloc2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projet{
+    height: 400px;
+    width: 400px;
+
+}
+
+@media (max-width: 1000px){
+    .work{
+        height: 500px;
+    }
+
+    .projet{
+        height: 200px;
+        width: 200px;
+
+    }
+}
+
+
+
+
+/*MAIL*/
+
+.mail{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center ;
+    margin-bottom: 20px;
+}
+
+.mail img{
     display: flex;
     flex-direction: row;
 }
 
+.mail img {
+    opacity: 0.5;
+    filter: invert(100%);
+    transition: 0.5s;
+}
 
+.mail a{
+    color: white;
+    display: inline;
+    background-color: transparent;
+    margin: auto;
+}
 
+.mail a:hover img {
+    opacity: 1;
+}

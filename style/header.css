@@ -27,7 +27,6 @@ header li, a {
     list-style: none;
     outline: 0;
     display: none;
-    background-color: orange;
 }
 header li {
     width: 230px;

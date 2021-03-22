@@ -32,6 +32,8 @@ main article {
 #Div1 {
     background-color: red;
     background-size: contain;
+    border-collapse: collapse;
+    border: 2px solid black;
 
 
 }
@@ -39,12 +41,16 @@ main article {
 #Div2 {
    background-color: deepskyblue;
     background-size: contain;
+    border-collapse: collapse;
+    border: 2px solid black;
 
 }
 
 #Div3 {
     background-color: lawngreen;
     background-size: contain;
+    border-collapse: collapse;
+    border: 2px solid black;
 }
 
 
