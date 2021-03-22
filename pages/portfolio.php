@@ -68,19 +68,25 @@ session_start();
     <!------------------COMPETENCES----------------------------->
 
     <section class="myplus">
+
         <section class="text">
             <p>WHAT I DO?</p>
             <p>//////</p>
         </section>
+
         <section class="competences" id="competences">
-            <h3>All of the languages I use</h3>
+
+
 
             <article class="comp">
+                <h3>All of the languages I use</h3>
                 <section class="column">
-              <img src="../image/html5.png" alt="html"/>
-                <img src="../image/css3.png" alt="css"/>
-                <img src="../image/js.png" alt="js"/>
-                <img src="../image/php.png" alt="php"/>
+
+                    <img src="../image/html5.png" alt="html"/>
+                    <img src="../image/css3.png" alt="css"/>
+                    <img src="../image/js.png" alt="js"/>
+                    <img src="../image/php.png" alt="php"/>
+
                 </section>
 
             <section class="column">
@@ -92,6 +98,7 @@ session_start();
             </article>
 
         </section>
+
     </section>
 
     <section class="arrow">
@@ -109,11 +116,6 @@ session_start();
         <section id="portfolio" class="work">
             <div class="portfolio-div">
             <article class="bloc1">
-                <section class="projet">
-                    <a  href="projet1.html" class="lien-projet1">
-                        <img src="../image/projet1.png" alt="projet1"/>
-                    </a>
-                </section>
 
                 <section class="projet">
                     <a  href="projet1.html" class="lien-projet1">
@@ -135,15 +137,15 @@ session_start();
                     </a>
                 </section>
 
-                <section class="projet">
-                    <a  href="projet1.html" class="lien-projet1">
-                        <img src="../image/projet5.png" alt="projet5"/>
-                    </a>
-                </section>
-
 
             </article>
 
+                <section class="plus">
+                    <a href="https://github.com/alicia-cordial/">
+                        <img src="../image/icons8-plus-96.png" alt="plus"/>
+                    </a>
+                    <p>Pour plus de projets</p>
+                </section>
 
 
             </div>
