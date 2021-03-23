@@ -20,7 +20,6 @@ html, body {
 body {
     min-height: 100vh;
     justify-content: space-between;
-
     font-family: 'Inconsolata', monospace;
 
 }
@@ -73,8 +72,8 @@ background-color: #cceeff;
     align-items: center;
     justify-content: center;
     padding: 30px 10px;
-    font-family: 'DM Sans', sans-serif;
     transition: background .4s ease-in;
+
 &.blue {
      background-color: #428aa6;
  }
@@ -158,32 +157,7 @@ input[type=radio] {
     height: 36px;
     overflow: hidden;
 }
-/*
-.play-icon{ margin-right: 10px; }
 
-.song-info {
-    width: calc(100% - 32px);
-    display: block;
-}
-
-.song-info .title {
-    color: #403d40;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-.sub-line {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.subtitle, .time {
-    font-size: 12px;
-    line-height: 16px;
-    color: #c6c5c6;
-}
-*/
 .time {
     font-size: 12px;
     line-height: 16px;
@@ -192,22 +166,6 @@ input[type=radio] {
     margin-left: auto;
 }
 
-.progress-bar {
-    height: 3px;
-    width: 100%;
-    background-color: #e9efff;
-    border-radius: 2px;
-    overflow: hidden;
-}
-
-.progress {
-    display: block;
-    position: relative;
-    width: 60%;
-    height: 100%;
-    background-color: #2992dc;
-    border-radius: 6px;
-}
 
 .info-area {
     width: 100%;

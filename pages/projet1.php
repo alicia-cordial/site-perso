@@ -44,9 +44,6 @@ session_start();
 
 
         </div>
-        <div class="progress-bar">
-            <span class="progress"></span>
-        </div>
     </div>
     </div>
 

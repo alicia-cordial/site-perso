@@ -40,17 +40,7 @@ session_start();
             <p>PHP</p>
             <p>Javascript</p>
         </div>
-        <div  class="Abdiv Div4">
-            <a href="projects.php">
-            <div class="text-box">
 
-                <p>Hello,</p>
-                <p>Interested?</p>
-                <p>Come here to see my projects!</p>
-
-            </div>
-            </a>
-        </div>
     </article>
 
 

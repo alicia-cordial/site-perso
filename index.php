@@ -10,7 +10,10 @@ session_start();
 
 
 <!--------------------------------HEADER---------------------------->
-<?php require_once('../includes/header.php'); ?>
+<?php require_once('includes/header.php'); ?>
+    <link rel= "stylesheet" type="text/css" href= "style/header.css">
+    <link rel= "stylesheet" type="text/css" href= "style/footer.css">
+    <link rel= "stylesheet" type="text/css" href= "style/style.css">
 
 <script>
     function changeColor(color) {
@@ -47,7 +50,7 @@ session_start();
 
     <section class="me" id="apropos">
         <article class="presentation">
-            <img src="../image/IMG_0501.jpg" alt="moi" width="300px" height="350px"/>
+            <img src="./image/IMG_0501.jpg" alt="moi" width="300px" height="350px"/>
         </article>
         <article class="texte_pres">
             <h3>Bonjour, moi c'est Alicia. Je suis actuellement en formation de développement web sur LaPlateforme_ basée à Marseille.</h3>
@@ -56,7 +59,7 @@ session_start();
     </section>
 
 <section class="arrow">
-    <img src="../image/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
+    <img src="./image/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
 </section>
 
 
@@ -77,17 +80,17 @@ session_start();
                 <h3>All of the languages I use</h3>
                 <section class="column">
 
-                    <img src="../image/html5.png" alt="html"/>
-                    <img src="../image/css3.png" alt="css"/>
-                    <img src="../image/js.png" alt="js"/>
-                    <img src="../image/php.png" alt="php"/>
+                    <img src="./image/html5.png" alt="html"/>
+                    <img src="./image/css3.png" alt="css"/>
+                    <img src="./image/js.png" alt="js"/>
+                    <img src="./image/php.png" alt="php"/>
 
                 </section>
 
             <section class="column">
-                <img src="../image/icons8-sql-96.png" alt="sql"/>
-                <img src="../image/github.png" alt="github"/>
-                <img src="../image/icons8-wordpress-128.png" alt="wordpress"/>
+                <img src="./image/icons8-sql-96.png" alt="sql"/>
+                <img src="./image/github.png" alt="github"/>
+                <img src="./image/icons8-wordpress-128.png" alt="wordpress"/>
             </section>
 
             </article>
@@ -97,7 +100,7 @@ session_start();
     </section>
 
     <section class="arrow">
-        <img src="../image/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
+        <img src="./image/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
     </section>
 
     <!---------------------------PROJETS-------------------------------->
@@ -113,22 +116,22 @@ session_start();
             <article class="bloc1">
 
                 <section class="projet">
-                    <a  href="../pages/projet1.php">
-                        <img src="../image/projet3.png" alt="projet3"/>
+                    <a  href="./pages/projet1.php">
+                        <img src="./image/projet3.png" alt="projet3"/>
                     </a>
                 </section>
 
                 <section class="projet">
-                    <a  href="../pages/projet2.php">
-                        <img src="../image/projet2.png" alt="projet2"/>
+                    <a  href="./pages/projet2.php">
+                        <img src="./image/projet2.png" alt="projet2"/>
                     </a>
                 </section>
             </article>
 
                 <article class="bloc2">
                 <section class="projet">
-                    <a  href="../pages/projet3.php">
-                        <img src="../image/projet4.png" alt="projet4"/>
+                    <a  href="./pages/projet3.php">
+                        <img src="./image/projet4.png" alt="projet4"/>
                     </a>
                 </section>
 
@@ -137,7 +140,7 @@ session_start();
 
                 <section class="plus">
                     <a href="https://github.com/alicia-cordial/">
-                        <img src="../image/icons8-plus-96.png" alt="plus"/>
+                        <img src="./image/icons8-plus-96.png" alt="plus"/>
                     </a>
                     <p>Pour plus de projets</p>
                 </section>
@@ -152,14 +155,14 @@ session_start();
 
 
         <section class="arrow">
-            <img src="../image/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
+            <img src="./image/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
         </section>
 
         <section class="mail">
 
 
             <article>
-            <a href="mailto:alicia.cordial@laplateforme.io"><img src="../image/icons8-important-mail-100.png" alt="mail"/></a>
+            <a href="mailto:alicia.cordial@laplateforme.io"><img src="./image/icons8-important-mail-100.png" alt="mail"/></a>
             </article>
 
 
@@ -170,11 +173,11 @@ session_start();
     <!-------------------SCROLL------------------------------------------->
 
     <section class="scroll_to_top">
-        <a href="#accueil"><img src=../image/icons8-up-arrow-100.png alt="arrowup" width="80px"/> </a>
+        <a href="#accueil"><img src=./image/icons8-up-arrow-100.png alt="arrowup" width="80px"/> </a>
     </section>
 </main>
 
 
 <!-------------------------FOOTER-------------------------------------->
 
-<?php require_once('../includes/footer.php'); ?>
+<?php require_once('./includes/footer.php'); ?>
