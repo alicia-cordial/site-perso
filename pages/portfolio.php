@@ -113,13 +113,13 @@ session_start();
             <article class="bloc1">
 
                 <section class="projet">
-                    <a  href="projet1.html" class="lien-projet1">
+                    <a  href="../pages/projet1.php">
                         <img src="../image/projet3.png" alt="projet3"/>
                     </a>
                 </section>
 
                 <section class="projet">
-                    <a  href="projet1.html" class="lien-projet1">
+                    <a  href="../pages/projet2.php">
                         <img src="../image/projet2.png" alt="projet2"/>
                     </a>
                 </section>
@@ -127,7 +127,7 @@ session_start();
 
                 <article class="bloc2">
                 <section class="projet">
-                    <a  href="projet1.html" class="lien-projet1">
+                    <a  href="../pages/projet3.php">
                         <img src="../image/projet4.png" alt="projet4"/>
                     </a>
                 </section>
@@ -177,20 +177,4 @@ session_start();
 
 <!-------------------------FOOTER-------------------------------------->
 
-<footer>
-    <article class="footerinfos">
-
-        <section class="imgsocial">
-            <a href="https://www.linkedin.com/in/alicia-cordial-0538b8205/"><img src="../image/icons8-linkedin-26.png" alt="linkedin"/></a>
-            <a href="https://github.com/alicia-cordial/"><img src="../image/icons8-github-30.png" alt="github"/></a>
-        </section>
-
-
-        <section class="production">
-            <p>Alicia Cordial</p>
-            <p>School : LaPlateforme_ Marseille</p>
-            <p>alicia.cordial@laplateforme.io</p>
-        </section>
-
-    </article>
 <?php require_once('../includes/footer.php'); ?>

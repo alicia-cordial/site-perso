@@ -59,9 +59,12 @@ article {
 }
 
 .gamebusters{
-background-color: lightskyblue;
+background-color: #cceeff;
 }
 
+.reservations{
+    background-color: #c8f4d5;
+}
 
 /*PROJETS*/
 .main_projet1 {
