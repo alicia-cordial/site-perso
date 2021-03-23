@@ -10,50 +10,13 @@ session_start();
 
 
 <!--------------------------------HEADER---------------------------->
-    <!doctype html>
-    <html lang="en">
+<?php require_once('../includes/header.php'); ?>
 
-    <head>
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata&display=swap" rel="stylesheet">
-        <link rel= "stylesheet" type="text/css" href= "../style/header.css">
-        <link rel= "stylesheet" type="text/css" href= "../style/about.css">
-        <link rel= "stylesheet" type="text/css" href= "../style/footer.css">
-        <link rel= "stylesheet" type="text/css" href= "../style.css">
-
-        <title> <?= $title ?> - Alicia Cordial</title>
-
-        <script>
-            function changeColor(color) {
-                document.body.style.background = color;
-            }
-        </script>
-
-    </head>
-
-
-<body class="<?= $bodyname ?>">
-
-<header>
-
-    <nav>
-        <input type="checkbox" id="menu-toggle"/>
-        <label id="trigger" for="menu-toggle"></label>
-        <label id="burger" for="menu-toggle"></label>
-        <ul id="menu">
-            <li><a href="portfolio.php"><h2>HOME</h2><p>Fresh start</p></a></li>
-            <li><a href="portfolio.php"><h2>WORK</h2><p>some of my work</p></a></li>
-            <li><a href="about.php"><h2>ABOUT</h2><p>Me, Myself and I</p></a></li>
-        </ul>
-    </nav>
-
-</header>
+<script>
+    function changeColor(color) {
+        document.body.style.background = color;
+    }
+</script>
 
 
     <main class="main_portfolio" id="accueil">
@@ -151,13 +114,13 @@ session_start();
 
                 <section class="projet">
                     <a  href="projet1.html" class="lien-projet1">
-                        <img src="../image/projet2.png" alt="projet2"/>
+                        <img src="../image/projet3.png" alt="projet3"/>
                     </a>
                 </section>
 
                 <section class="projet">
                     <a  href="projet1.html" class="lien-projet1">
-                        <img src="../image/projet3.png" alt="projet3"/>
+                        <img src="../image/projet2.png" alt="projet2"/>
                     </a>
                 </section>
             </article>
@@ -230,25 +193,4 @@ session_start();
         </section>
 
     </article>
-</footer>
-<!-- Compiled and minified JavaScript -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script>
-
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.modal');
-        var instances = M.Modal.init(elems, options);
-    });
-
-    // Or with jQuery
-
-    $(document).ready(function(){
-        $('.modal').modal();
-    });
-
-</script>
-
-</body>
-
-</html>
+<?php require_once('../includes/footer.php'); ?>
