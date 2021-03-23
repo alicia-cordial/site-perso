@@ -58,6 +58,7 @@ session_start();
 
     <main class="main_portfolio" id="accueil">
 
+
 <section class="background_change">
         <p><b>Change the background depending on your mood</b></p>
     <section class="btn">
