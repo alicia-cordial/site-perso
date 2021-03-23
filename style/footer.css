@@ -8,7 +8,7 @@ footer {
     opacity: 0.3;
     transition: 0.5s;
     padding: 5px;
-
+    bottom: 0;
 }
 
 footer:hover {

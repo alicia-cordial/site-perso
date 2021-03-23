@@ -44,39 +44,6 @@ article {
 
 
 
-/*INDEX*/
-
-.intro{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width:90%;
-    justify-content: center;
-    border-collapse: collapse;
-    border: 2px solid white;
-    margin-left: 5%;
-}
-
-
-
-.intro h1{
-    text-align: center;
-    font-size: 3em;
-    color: red;
-}
-
-
-.intro a {
-    text-decoration: none;
-}
-
-.intro a:hover {
-    text-decoration: none;
-    text-shadow: 2px 2px 2px white;
-}
-
-
-
 /*BACKGROUND*/
 .About{
     background-color: rgba(255, 182, 193, 0.5);
@@ -85,6 +52,11 @@ article {
 .portfolio{
     background-color: mediumspringgreen;
 }
+
+
+
+
+
 
 /*BACKGROUND CHANGE*/
 .background_change{
@@ -96,13 +68,13 @@ article {
 
 }
 
-.btn{
+.background_change .btn{
     display: flex;
     flex-direction: column;
     position: fixed;
     margin: 15px;
 }
-button {
+.background_change button {
     display:block;
     height: 20px;
     width: 20px;
@@ -113,7 +85,7 @@ button {
     text-shadow: 0.4px 0.4px 0.4px black;
 }
 
-button:hover{
+.background_change button:hover{
     text-decoration: underline;
     font-weight: bold;
 }
@@ -302,6 +274,10 @@ button:hover{
 
 
 
+
+
+
+
 /*PROJETS*/
 
 .work{
@@ -336,6 +312,7 @@ button:hover{
 
     }
 }
+
 
 
 .plus{
@@ -373,6 +350,15 @@ button:hover{
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
 /*MAIL*/
 
 .mail{
@@ -404,3 +390,4 @@ button:hover{
 .mail a:hover img {
     opacity: 1;
 }
+
