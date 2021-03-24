@@ -27,8 +27,9 @@
         <label id="burger" for="menu-toggle"></label>
         <ul id="menu">
             <li><a href="../index.php"><h2>HOME</h2><p>Fresh start</p></a></li>
-            <li><a href="portfolio.php"><h2>WORK</h2><p>some of my work</p></a></li>
-            <li><a href="../pages/about.php"><h2>ABOUT</h2><p>Me, Myself and I</p></a></li>
+            <li><a href="../pages/projet1.php"><h2>WORK 1</h2><p>-Memory-</p></a></li>
+            <li><a href="../pages/projet2.php"><h2>WORK 2</h2><p>-Réservations salle-</p></a></li>
+            <li><a href="../pages/projet3.php"><h2>WORK 3</h2><p>-Gamebusters-</p></a></li>
         </ul>
     </nav>
 

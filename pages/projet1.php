@@ -38,16 +38,19 @@ session_start();
         </div>
     </div>
 
-    <h1>LE JEU DU MEMORY</h1>
+    <section class="texte">
 
-    <p>Faire le jeu du mémory sur une base d'un jeu de min 3 paires.</p>
-    <p>Projet réalisé avec May.</p>
-    <p>Nous avons décidé de partir sur un mélange de jeu de divinité et le jeu du mémory.</p>
-    <p>Nous avons utilisé pour créer ce site</p>
-    <li>HTML et CSS (+Materialize pour le header) pour le design et la partie front-end</li>
-    <li>PHP et SQL pour le back-end </li>
-    <p>N'hésitez pas à essayer ce merveilleux jeu avec ce lien !</p>
+        <h1>LE JEU DU MEMORY</h1>
 
+        <p>Faire le jeu du mémory sur une base d'un jeu de min 3 paires.</p>
+        <p>Projet réalisé avec May.</p>
+        <p>Nous avons décidé de partir sur un mélange de jeu de divinité et le jeu du mémory.</p>
+        <p>Nous avons utilisé pour créer ce site</p>
+        <li>HTML et CSS (+Materialize pour le header) pour le design et la partie front-end</li>
+        <li>PHP et SQL pour le back-end </li>
+        <p>N'hésitez pas à essayer ce merveilleux jeu avec ce lien !</p>
+
+    </section>
 </main>
 
 <?php require_once('../includes/footer.php'); ?>

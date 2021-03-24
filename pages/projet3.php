@@ -38,17 +38,19 @@ session_start();
 
         </div>
 
+    <section class="texte">
+
         <h1>LA BOUTIQUE EN LIGNE</h1>
 
         <p>Faire une boutique en ligne.</p>
         <p>Projet réalisé avec May.</p>
         <p>Nous avons décidé de partir sur une boutique de jeux vidéos.</p>
-        <p>Nous avons vraiment mis en avant le design et l'expérience client. Nous avons également fait une partie administrateur pour que ce dernier puisse gérer toute la partie boutique. Nous avons également mis en place un système de payement à l'aide de Paypal. </p>
+        <p>Nous avons vraiment mis en avant le design et l'expérience client.</p>
+            <p>Nous avons également fait une partie administrateur pour que ce dernier puisse gérer toute la partie boutique. Nous avons également mis en place un système de payement à l'aide de Paypal. </p>
         <li>HTML et CSS pour le design et la partie front-end</li>
         <li>PHP et SQL pour le back-end.</li>
-
         <p>N'hésitez pas à tester notre boutique en ligne avec ce lien !</p>
-
+    </section>
 
     </main>
 

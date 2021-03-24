@@ -38,6 +38,7 @@ session_start();
 
         </div>
 
+    <section class="texte">
         <h1>LES RÉSERVATIONS DE SALLE</h1>
 
         <p>Faire un système de réservations de salle</p>
@@ -47,7 +48,7 @@ session_start();
         <li>HTML et CSS (+Materialize pour le header) pour le design et la partie front-end</li>
         <li>PHP et SQL pour le back-end </li>
         <p>N'hésitez pas à essayer ce merveilleux jeu avec ce lien !</p>
-
+    </section>
 
     </main>
 

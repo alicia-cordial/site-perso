@@ -43,7 +43,6 @@ header a:focus {
 
 header li:hover{
 
-    background-image: url("../image/gradient.png");
     width: 100%;
 
 }
@@ -94,6 +93,7 @@ header li:hover{
     left: 18px;
     transform: rotate(-45deg) translateX(-5px);
     transition: transform .2s ease;
+
 }
 #menu {
     position: absolute;
