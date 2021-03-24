@@ -431,9 +431,11 @@ article {
 
 .slider__txt {
     color: #999;
-    margin-bottom: 3rem;
     max-width: 300px;
+
 }
+
+
 
 @-webkit-keyframes check {
     50% {

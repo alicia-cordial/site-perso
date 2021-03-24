@@ -11,9 +11,7 @@ session_start();
 
 <!--------------------------------HEADER---------------------------->
 <?php require_once('includes/header.php'); ?>
-    <link rel= "stylesheet" type="text/css" href= "style/header.css">
-    <link rel= "stylesheet" type="text/css" href= "style/footer.css">
-    <link rel= "stylesheet" type="text/css" href= "style/style.css">
+
 
 <script>
     function changeColor(color) {
@@ -118,11 +116,16 @@ session_start();
 
                     <div class="slider__inner">
                         <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+
+                            <h2 class="slider__caption">-Memory-</h2>
+                            <p class="slider__txt">Projet réalisé avec May. Utilisation de HTML + CSS (+ Materialize) + PHP (+classes) </p>
+
                             <a href="pages/projet1.php">
                                 <img src="image/projet3.png" alt="projet2">
                             </a>
-                            <h2 class="slider__caption">-Memory-</h2>
-                            <p class="slider__txt">Projet réalisé avec May. Utilisation de HTML + CSS (+ Materialize) + PHP (+classes) </p>
+                            <a  href="https://github.com/alicia-cordial/memory">Pour voir mon code, c'est ici !</a>
+
+
                         </div>
 
                         <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
@@ -131,6 +134,7 @@ session_start();
                             </a>
                             <h2 class="slider__caption">-Réservations salle-</h2>
                             <p class="slider__txt">Projet perso. Utilisation de HTML + CSS (+ Materialize) + PHP (+classes)</p>
+                            <a class="slider__txt" href="https://github.com/alicia-cordial/reservation-salles">Pour voir mon code, c'est ici !</a>
                         </div>
 
                         <div class="slider__contents"><i class="slider__image fa fa-television"></i>
@@ -139,6 +143,7 @@ session_start();
                             </a>
                             <h2 class="slider__caption">-Gamebusters-</h2>
                             <p class="slider__txt">Projet réalisé avec May (e-commerce). Utilisation de HTML + CSS + PHP (+classes) </p>
+                            <a class="slider__txt" href="https://github.com/alicia-cordial/boutique">Pour voir mon code, c'est ici !</a>
                         </div>
 
                         <div class="slider__contents" id="plus"><i class="slider__image fa fa-diamond"></i>
@@ -184,4 +189,25 @@ session_start();
 
 <!-------------------------FOOTER-------------------------------------->
 
-<?php require_once('./includes/footer.php'); ?>
+<footer>
+    <article class="footerinfos">
+
+        <section class="imgsocial">
+            <a href="https://www.linkedin.com/in/alicia-cordial-0538b8205/"><img src="image/icons8-linkedin-26.png" alt="linkedin"/></a>
+            <a href="https://github.com/alicia-cordial/"><img src="image/icons8-github-30.png" alt="github"/></a>
+        </section>
+
+
+        <section class="production">
+            <p>Alicia Cordial</p>
+            <p>School : LaPlateforme_ Marseille</p>
+            <p>alicia.cordial@laplateforme.io</p>
+        </section>
+
+    </article>
+</footer>
+
+
+</body>
+
+</html>
