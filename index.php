@@ -115,22 +115,32 @@ session_start();
                     <input type="radio" name="slider" title="slide2" class="slider__nav"/>
                     <input type="radio" name="slider" title="slide3" class="slider__nav"/>
                     <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+
                     <div class="slider__inner">
                         <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
-                            <img src="image/projet2.png" alt="projet1">
-                            <h2 class="slider__caption">-Réservations salle-</h2>
-                            <p class="slider__txt">Projet perso. Utilisation de HTML + CSS (+ Materialize) + PHP (+classes)</p>
-                        </div>
-                        <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
-                            <img src="image/projet3.png" alt="projet2">
+                            <a href="pages/projet1.php">
+                                <img src="image/projet3.png" alt="projet2">
+                            </a>
                             <h2 class="slider__caption">-Memory-</h2>
                             <p class="slider__txt">Projet réalisé avec May. Utilisation de HTML + CSS (+ Materialize) + PHP (+classes) </p>
                         </div>
+
+                        <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+                            <a href="pages/projet2.php">
+                                <img src="image/projet2.png" alt="projet1">
+                            </a>
+                            <h2 class="slider__caption">-Réservations salle-</h2>
+                            <p class="slider__txt">Projet perso. Utilisation de HTML + CSS (+ Materialize) + PHP (+classes)</p>
+                        </div>
+
                         <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+                            <a href="pages/projet3.php">
                             <img src="image/projet4.png" alt="projet3">
+                            </a>
                             <h2 class="slider__caption">-Gamebusters-</h2>
                             <p class="slider__txt">Projet réalisé avec May (e-commerce). Utilisation de HTML + CSS + PHP (+classes) </p>
                         </div>
+
                         <div class="slider__contents" id="plus"><i class="slider__image fa fa-diamond"></i>
                             <a href="https://github.com/alicia-cordial/">
                                 <img src="image/icons8-plus-96.png" alt="plus"/>
@@ -138,6 +148,7 @@ session_start();
                             <h2 class="slider__caption">Pour plus de projets</h2>
                             <p class="slider__txt">Redirection vers Github</p>
                         </div>
+
                     </div>
                 </div>
 

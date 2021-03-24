@@ -44,7 +44,12 @@ article {
 
 
 
-/*BACKGROUND*/
+
+
+
+
+
+/********************************BACKGROUND****************************/
 .about{
     background-color: rgba(255, 182, 193, 0.5);
 }
@@ -55,10 +60,12 @@ article {
 
 
 
+/*************************PORTFOLIO************************************/
 
 
 
-/*BACKGROUND CHANGE*/
+
+/*********BACKGROUND CHANGE*****************/
 .background_change{
     display: flex;
     flex-direction: column;
@@ -132,9 +139,11 @@ article {
 
 
 
-/*PORTFOLIO*/
 
-/*SCROLL*/
+
+
+
+/***************SCROLL************/
 
 
 .scroll_to_top {
@@ -152,7 +161,11 @@ article {
 
 }
 
-/*ARROW*/
+
+
+
+
+/***********ARROW********************/
 .arrow{
     display: flex;
     flex-direction: column;
@@ -188,10 +201,10 @@ article {
 
 
 
-/*PRESENTATION*/
 
 
 
+/*************PRESENTATION***************/
 
 
 .me{
@@ -221,7 +234,16 @@ article {
 }
 
 
-/*COMPETENCES*/
+
+
+
+
+
+
+
+
+
+/******************COMPETENCES**************/
 
 .competences{
     display: flex;
@@ -277,12 +299,7 @@ article {
 
 
 
-
-
-
-
-
-/*PROJETS*/
+/*********PROJETS************/
 
 .work{
     width: 100%;
@@ -296,38 +313,7 @@ article {
 }
 
 
-
-#plus{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center ;
-    margin-bottom: 20px;
-}
-
-
-#plus img{
-    display: flex;
-    flex-direction: row;
-}
-
-#plus img {
-    opacity: 0.5;
-    filter: invert(100%);
-    transition: 0.5s;
-    width:100px;
-}
-
-#plus a{
-    color: white;
-    display: inline;
-    background-color: transparent;
-    margin: auto;
-}
-
-#plus a:hover img {
-    opacity: 1;
-}
+/*****CAROUSEL*****/
 
 
 
@@ -440,7 +426,7 @@ article {
 }
 
 .slider img{
-width: 600px;
+    width: 600px;
 }
 
 .slider__txt {
@@ -474,7 +460,45 @@ width: 600px;
 
 
 
-/*MAIL*/
+
+/****PLUS SIGN***/
+
+#plus{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center ;
+    margin-bottom: 20px;
+}
+
+
+#plus img{
+    display: flex;
+    flex-direction: row;
+}
+
+#plus img {
+    opacity: 0.5;
+    filter: invert(100%);
+    transition: 0.5s;
+    width:100px;
+}
+
+#plus a{
+    color: white;
+    display: inline;
+    background-color: transparent;
+    margin: auto;
+}
+
+#plus a:hover img {
+    opacity: 1;
+}
+
+
+
+
+/********MAIL*******/
 
 .mail{
     display: flex;
@@ -509,11 +533,21 @@ width: 600px;
 
 
 
-/*ABOUT*/
+
+
+
+
+
+
+
+
+
+/***************************************ABOUT**************************/
 
 .about h1{
     text-align: center;
-    font-size: 3em;
+    font-size: 6em;
+    margin-top: 200px;
 }
 
 @media (max-width: 1000px) {
@@ -525,6 +559,8 @@ width: 600px;
 
 
 }
+
+/*****GRID*****/
 
 .parent {
     display: grid;
