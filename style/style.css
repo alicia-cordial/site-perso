@@ -45,7 +45,7 @@ article {
 
 
 /*BACKGROUND*/
-.About{
+.about{
     background-color: rgba(255, 182, 193, 0.5);
 }
 
@@ -178,11 +178,6 @@ article {
 }
 
 
-
-
-
-/*PRESENTATION*/
-
 .text{
     text-align: center;
     font-weight: bold;
@@ -193,10 +188,15 @@ article {
 
 
 
+/*PRESENTATION*/
+
+
+
+
 
 .me{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
 }
 
@@ -211,10 +211,14 @@ article {
 .me h3{
     width: 50%;
     font-size: 2.5em;
+    text-align: center;
 }
 
 
-
+.texte_pres{
+    display: flex;
+    align-items: center;
+}
 
 
 /*COMPETENCES*/
@@ -502,3 +506,76 @@ width: 600px;
     opacity: 1;
 }
 
+
+
+
+/*ABOUT*/
+
+.about h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+@media (max-width: 1000px) {
+
+    .about_me{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 2 / 2 / 3 / 3; }
+.div2 { grid-area: 2 / 4 / 3 / 5; }
+.div3 { grid-area: 3 / 3 / 4 / 4; }
+.div4 { grid-area: 4 / 2 / 5 / 3; }
+.div5 { grid-area: 4 / 4 / 5 / 5; }
+
+
+.div1, .div2, .div4, .div5{
+    border-collapse: collapse;
+    border: 4px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.div1{
+    background-color: yellow;
+}
+
+.div2{
+    background-color: red;
+}
+
+.div3 img{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:200px;
+    height:200px;
+    border-collapse: collapse;
+    border: 4px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.div4{
+    background-color: dodgerblue;
+}
+
+
+.div5{
+    background-color: green;
+}

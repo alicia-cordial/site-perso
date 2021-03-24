@@ -49,11 +49,9 @@ session_start();
     </section>
 
     <section class="me" id="apropos">
-        <article class="presentation">
-            <img src="./image/IMG_0501.jpg" alt="moi" width="300px" height="350px"/>
-        </article>
         <article class="texte_pres">
-            <h3>Bonjour, moi c'est Alicia. Je suis actuellement en formation de développement web sur LaPlateforme_ basée à Marseille.</h3>
+            <h3>Bonjour, moi c'est Alicia. </h3>
+                <h3>Je suis actuellement en formation de développement web sur LaPlateforme_ basée à Marseille.</h3>
         </article>
 
     </section>
