@@ -26,7 +26,7 @@
     <label id="trigger" for="menu-toggle"></label>
     <label id="burger" for="menu-toggle"></label>
     <ul id="menu">
-        <li><a href="../portfolio.php"><h2>HOME</h2><p>Fresh start</p></a></li>
+        <li><a href="../index.php"><h2>HOME</h2><p>Fresh start</p></a></li>
         <li><a href="../pages/projet1.php"><h2>WORK</h2><p>some of my work</p></a></li>
         <li><a href="../pages/about.php"><h2>ABOUT</h2><p>Me, Myself and I</p></a></li>
     </ul>

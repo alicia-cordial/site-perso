@@ -1,55 +1,34 @@
-<?php
+<link rel= "stylesheet" type="text/css" href= "../style/about.css">
 
 
-$title = "About";
-$bodyname = "About";
-
-session_start();
-
-?>
-
-<?php require_once('../includes/header.php'); ?>
-
-
-
-
-<main>
-<h1>ABOUT ME</h1>
-
-
-
-    <article>
-        <div class="Abdiv" id="Div1">
-            <h2>ABOUT</h2>
-            <p>Je suis basée sur Marseille et actuellement en première année de formation en développement. Je prépare actuellement mon projet professionnel en partenierat avec une entreprise.</p>
-            <p>J'aime profiter de la vie, lire et voyager.</p>
+<div class="slider">
+    <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+    <div class="slider__inner">
+        <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+            <img src="../image/projet2.png" alt="projet1" width="400px">
+            <h2 class="slider__caption">codepen</h2>
+            <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
         </div>
-        <div class="Abdiv" id="Div2">
-            <h2>COMPETENCES</h2>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>PHP</p>
-            <p>Javascript</p>
+        <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+            <img src="../image/projet3.png" alt="projet2" width="400px">
+            <h2 class="slider__caption">newspaper-o</h2>
+            <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
         </div>
-    </article>
-    <article>
-        <div class="Abdiv" id="Div3">
-            <h2>COMPETENCES</h2>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>PHP</p>
-            <p>Javascript</p>
+        <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+            <img src="../image/projet4.png" alt="projet3" width="400px">
+            <h2 class="slider__caption">television</h2>
+            <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
         </div>
-
-    </article>
-
-
-
-
-
-
-
-</main>
-
-
-<?php require_once('../includes/footer.php'); ?>
+        <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+            <a href="https://github.com/alicia-cordial/">
+                <img src="../image/icons8-plus-96.png" alt="plus"/>
+            </a>
+            <p>Pour plus de projets</p>
+            <h2 class="slider__caption">diamond</h2>
+            <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+        </div>
+    </div>
+</div>
