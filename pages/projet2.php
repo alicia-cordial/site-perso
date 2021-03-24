@@ -13,15 +13,6 @@ session_start();
 <?php require_once('../includes/header_project.php'); ?>
 
     <main class="main_projet1">
-        <h1>LES RÉSERVATIONS DE SALLE</h1>
-
-        <p>Faire un système de réservations de salle</p>
-        <p>Projet réalisé en solo.</p>
-        <p>Nous avons décidé de partir sur un mélange de jeu de divinité et le jeu du mémory.</p>
-        <p>Nous avons utilisé pour créer ce site</p>
-        <li>HTML et CSS (+Materialize pour le header) pour le design et la partie front-end</li>
-        <li>PHP et SQL pour le back-end </li>
-        <p>N'hésitez pas à essayer ce merveilleux jeu avec ce lien !</p>
 
         <div class="container">
             <input type="radio" name="slider" id="item-1" checked>
@@ -46,7 +37,17 @@ session_start();
             </div>
 
         </div>
-        </div>
+
+        <h1>LES RÉSERVATIONS DE SALLE</h1>
+
+        <p>Faire un système de réservations de salle</p>
+        <p>Projet réalisé en solo.</p>
+        <p>Nous avons décidé de partir sur un mélange de jeu de divinité et le jeu du mémory.</p>
+        <p>Nous avons utilisé pour créer ce site</p>
+        <li>HTML et CSS (+Materialize pour le header) pour le design et la partie front-end</li>
+        <li>PHP et SQL pour le back-end </li>
+        <p>N'hésitez pas à essayer ce merveilleux jeu avec ce lien !</p>
+
 
     </main>
 
