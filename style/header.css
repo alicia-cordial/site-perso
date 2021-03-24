@@ -73,6 +73,7 @@ header li:hover{
     content: " ";
     top: 20px;
     left: 0;
+
 }
 #menu-toggle:checked + #trigger + #burger {
     top: 35px;
@@ -94,6 +95,7 @@ header li:hover{
     transform: rotate(-45deg) translateX(-5px);
     transition: transform .2s ease;
 
+
 }
 #menu {
     position: absolute;
@@ -106,17 +108,18 @@ header li:hover{
     animation: not-checked-anim .2s both;
     transition: .2s;
     z-index: 2;
-
-
+    backdrop-filter: blur(5px);
 }
 #menu-toggle:checked + #trigger + #burger + #menu {
     animation: checked-anim 1s ease both;
 }
 #menu-toggle:checked + #trigger ~ #menu > li, a {
     display: block;
+
 }
 [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
     display: none;
+
 }
 
 
