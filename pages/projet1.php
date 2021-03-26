@@ -10,7 +10,7 @@ session_start();
 
 
 
-<?php require_once('../includes/header_project.php'); ?>
+<?php require_once('../includes/header.php'); ?>
 
 <main class="main_projet1">
 
