@@ -163,29 +163,36 @@ session_start();
                         </div>
 
                         <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+
+                            <h2 class="slider__caption">-Réservations salle-</h2>
+                            <p class="slider__txt">Projet perso. Utilisation de HTML + CSS (+ Materialize) + PHP (+classes)</p>
+
                             <a href="pages/projet2.php">
                                 <img src="image/projet2.png" alt="projet1">
                             </a>
-                            <h2 class="slider__caption">-Réservations salle-</h2>
-                            <p class="slider__txt">Projet perso. Utilisation de HTML + CSS (+ Materialize) + PHP (+classes)</p>
-                            <a class="slider__txt" href="https://github.com/alicia-cordial/reservation-salles">Pour voir mon code, c'est ici !</a>
+                            <a href="https://github.com/alicia-cordial/reservation-salles">Pour voir mon code, c'est ici !</a>
                         </div>
 
                         <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+
+                            <h2 class="slider__caption">-Gamebusters-</h2>
+                            <p class="slider__txt">Projet réalisé avec May (e-commerce). Utilisation de HTML + CSS + PHP (+classes) </p>
+
                             <a href="pages/projet3.php">
                             <img src="image/projet4.png" alt="projet3">
                             </a>
-                            <h2 class="slider__caption">-Gamebusters-</h2>
-                            <p class="slider__txt">Projet réalisé avec May (e-commerce). Utilisation de HTML + CSS + PHP (+classes) </p>
-                            <a class="slider__txt" href="https://github.com/alicia-cordial/boutique">Pour voir mon code, c'est ici !</a>
+
+                            <a href="https://github.com/alicia-cordial/boutique">Pour voir mon code, c'est ici !</a>
                         </div>
 
                         <div class="slider__contents" id="plus"><i class="slider__image fa fa-diamond"></i>
+                            <h2 class="slider__caption">Pour plus de projets</h2>
+                            <a href="https://github.com/alicia-cordial/">Redirection vers Github</a>
+
                             <a href="https://github.com/alicia-cordial/">
                                 <img src="image/icons8-plus-96.png" alt="plus"/>
                             </a>
-                            <h2 class="slider__caption">Pour plus de projets</h2>
-                            <p class="slider__txt">Redirection vers Github</p>
+
                         </div>
 
                     </div>

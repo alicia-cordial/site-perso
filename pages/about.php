@@ -88,14 +88,14 @@ session_start();
 
                     <div class="card item-3 sm">
                         <h2>FOLLOW</h2>
-                        <p>Suivez mes projets sur Github</p>
+                        <a href="https://github.com/alicia-cordial/"><p>Suivez mes projets sur Github</p><img src="../image/icons8-github-30.png" alt="github" width="30px"></a>
                     </div>
 
                     <div class="card item-4 sm">
                         <h2>CONTACT</h2>
                         <p>ALICIA CORDIAL</p>
-                        <p>alicia.cordial@laplateforme.io</p>
-                        <p>Linkedin</p>
+                        <a href="mailto:alicia.cordial@laplateforme.io">alicia.cordial@laplateforme.io<img src="../image/icons8-important-mail-100.png" width="30px" alt="mail"/></a>
+                        <a href="https://www.linkedin.com/in/alicia-cordial-0538b8205/"><p>Linkedin</p><img src="../image/icons8-linkedin-26.png" alt="github" width="30px"></a>
                     </div>
             </div>
         </div>
