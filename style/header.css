@@ -123,3 +123,39 @@ header li:hover{
 }
 
 
+#home a:hover{
+    border-collapse: collapse;
+    border: 3px solid mediumspringgreen;
+}
+
+#project1 a:hover{
+
+border-collapse: collapse;
+    border: 3px solid #c394f8;
+}
+
+
+#project2 a:hover{
+
+    border-collapse: collapse;
+    border: 3px solid #c8f4d5;
+}
+
+
+
+#project3 a:hover{
+
+    border-collapse: collapse;
+    border: 3px solid #cceeff;
+}
+
+
+
+#aboutme a:hover{
+
+    border-collapse: collapse;
+    border: 3px solid lightpink;
+}
+
+
+
