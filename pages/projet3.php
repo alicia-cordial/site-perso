@@ -51,6 +51,7 @@ session_start();
         <li>HTML et CSS pour le design et la partie front-end</li>
         <li>PHP et SQL pour le back-end.</li>
         <p>N'hésitez pas à tester notre boutique en ligne avec ce lien !</p>
+        <a href="https://github.com/huongmay-nguyenphuoc"><p>Lien github de May</p></a>
     </section>
 
     </main>

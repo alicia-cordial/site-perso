@@ -48,8 +48,8 @@ session_start();
         <p>Nous avons utilisé pour créer ce site</p>
         <li>HTML et CSS (+Materialize pour le header) pour le design et la partie front-end</li>
         <li>PHP et SQL pour le back-end </li>
-        <p>N'hésitez pas à essayer ce merveilleux jeu avec ce lien !</p>
-
+        <a href="https://alicia-cordial.students-laplateforme.io/memory/">N'hésitez pas à essayer ce merveilleux jeu avec ce lien !</a>
+        <a href="https://github.com/huongmay-nguyenphuoc">Lien github de May</a>
     </section>
 </main>
 
