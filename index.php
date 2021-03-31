@@ -82,8 +82,8 @@ session_start();
 
     <section class="me" id="apropos">
         <article class="texte_pres">
-            <h3>Bonjour, moi c'est Alicia. </h3>
-                <h3>Je suis actuellement en formation de développement web sur LaPlateforme_ basée à Marseille.</h3>
+            <h3>Hello, my name is Alicia.</h3>
+                <h3>I'm a fullstack web developer Student, based in Marseille.</h3>
         </article>
 
     </section>
@@ -152,42 +152,42 @@ session_start();
                         <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
 
                             <h2 class="slider__caption">-Memory-</h2>
-                            <p class="slider__txt">Projet réalisé avec May. Utilisation de HTML + CSS (+ Materialize) + PHP (+classes) </p>
+                            <p class="slider__txt">Project executed with May. Use of HTML + CSS (+ Materialize) + PHP (+class) </p>
 
                             <a href="pages/projet1.php">
                                 <img src="image/projet3.png" alt="projet2">
                             </a>
-                            <a  href="https://github.com/alicia-cordial/memory">Pour voir mon code, c'est ici !</a>
+                            <a  href="https://github.com/alicia-cordial/memory">To see my code, click here !</a>
 
 
                         </div>
 
                         <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
 
-                            <h2 class="slider__caption">-Réservations salle-</h2>
-                            <p class="slider__txt">Projet perso. Utilisation de HTML + CSS (+ Materialize) + PHP (+classes)</p>
+                            <h2 class="slider__caption">-Hall booking-</h2>
+                            <p class="slider__txt">Solo project. Use of HTML + CSS (+ Materialize) + PHP (+class)</p>
 
                             <a href="pages/projet2.php">
                                 <img src="image/projet2.png" alt="projet1">
                             </a>
-                            <a href="https://github.com/alicia-cordial/reservation-salles">Pour voir mon code, c'est ici !</a>
+                            <a href="https://github.com/alicia-cordial/reservation-salles">To see my code, click here !</a>
                         </div>
 
                         <div class="slider__contents"><i class="slider__image fa fa-television"></i>
 
                             <h2 class="slider__caption">-Gamebusters-</h2>
-                            <p class="slider__txt">Projet réalisé avec May (e-commerce). Utilisation de HTML + CSS + PHP (+classes) </p>
+                            <p class="slider__txt">Project executed with May (e-commerce). Use of HTML + CSS + PHP (+class) </p>
 
                             <a href="pages/projet3.php">
                             <img src="image/projet4.png" alt="projet3">
                             </a>
 
-                            <a href="https://github.com/alicia-cordial/boutique">Pour voir mon code, c'est ici !</a>
+                            <a href="https://github.com/alicia-cordial/boutique">To see my code, click here !</a>
                         </div>
 
                         <div class="slider__contents" id="plus"><i class="slider__image fa fa-diamond"></i>
-                            <h2 class="slider__caption">Pour plus de projets</h2>
-                            <a href="https://github.com/alicia-cordial/">Redirection vers Github</a>
+                            <h2 class="slider__caption">More of my projects</h2>
+                            <a href="https://github.com/alicia-cordial/">Redirection to my Github</a>
 
                             <a href="https://github.com/alicia-cordial/">
                                 <img src="image/icons8-plus-96.png" alt="plus"/>
