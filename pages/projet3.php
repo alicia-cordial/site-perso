@@ -40,18 +40,20 @@ session_start();
 
     <section class="texte">
 
-        <h1>LA BOUTIQUE EN LIGNE</h1>
+        <h1>Gamebusters</h1>
 
-        <p>Faire une boutique en ligne.</p>
-        <p>Projet réalisé avec May.</p>
-        <p>Nous avons décidé de partir sur une boutique de jeux vidéos.</p>
-        <p>Nous avons vraiment mis en avant le design et l'expérience client.</p>
-        <p>Nous avons également fait une partie administrateur pour que ce dernier puisse gérer toute la partie boutique.</p>
-                <p>Nous avons également mis en place un système de payement à l'aide de Paypal. </p>
-        <li>HTML et CSS pour le design et la partie front-end</li>
-        <li>PHP et SQL pour le back-end.</li>
-        <p>N'hésitez pas à tester notre boutique en ligne avec ce lien !</p>
-        <a href="https://github.com/huongmay-nguyenphuoc"><p>Lien github de May</p></a>
+        <p>Do an E-Shop Website.</p>
+        <p>Project in Collab with May</p>
+        <p>We decided to make a video-games shop.</p>
+        <p>We really wanted to have a Customer experience.</p>
+        <p>We also created an admin part where he/she could manage the Shop.</p>
+        <p>There's also a Paypal option available to purchase. </p>
+        <ul>
+        <li>HTML and CSS for the Design et the front-end part</li>
+        <li>PHP and SQL for the back-end.</li>
+        </ul>
+        <p>Don't forget to test our E-Shop !</p>
+        <a href="https://github.com/huongmay-nguyenphuoc"><p>Link to May's Github</p></a>
     </section>
 
     </main>

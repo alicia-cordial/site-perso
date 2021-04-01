@@ -39,15 +39,17 @@ session_start();
         </div>
 
     <section class="texte">
-        <h1>LES RÉSERVATIONS DE SALLE</h1>
+        <h1>Hall booking</h1>
 
-        <p>Faire un système de réservations de salle</p>
-        <p>Projet réalisé en solo.</p>
-        <p>Nous avons décidé de partir sur un mélange de jeu de divinité et le jeu du mémory.</p>
-        <p>Nous avons utilisé pour créer ce site</p>
-        <li>HTML et CSS (+Materialize pour le header) pour le design et la partie front-end</li>
-        <li>PHP et SQL pour le back-end </li>
-        <p>N'hésitez pas à essayer ce merveilleux jeu avec ce lien !</p>
+        <p>Make a hall booking system.</p>
+        <p>Solo Project.</p>
+        <p>I decided to do a Hall booking Website for an Art University in Paris.</p>
+        <p>For this Website, I used:</p>
+        <ul>
+        <li>HTML and CSS for the Design et the front-end part.</li>
+        <li>PHP and SQL for the back-end. </li>
+        </ul>
+        <p>Don't forget to check my Website to see the result!</p>
     </section>
 
     </main>

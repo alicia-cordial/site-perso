@@ -40,7 +40,7 @@ session_start();
         <ul id="menu">
             <li id="home"><a href="../index.php"><h2>HOME</h2><p>-Fresh start-</p></a></li>
             <li id="project1"><a href="../pages/projet1.php"><h2>WORK 1</h2><p>-Memory-</p></a></li>
-            <li id="project2"><a href="../pages/projet2.php"><h2>WORK 2</h2><p>-Réservations salle-</p></a></li>
+            <li id="project2"><a href="../pages/projet2.php"><h2>WORK 2</h2><p>-Hall Booking-</p></a></li>
             <li id="project3"><a href="../pages/projet3.php"><h2>WORK 3</h2><p>-Gamebusters-</p></a></li>
             <li id="aboutme"><a href="../pages/about.php"><h2>ABOUT ME</h2><p>-Learn more about me-</p></a></li>
 
@@ -64,31 +64,31 @@ session_start();
                 <div id="grid" class="grid-wrapper">
 
                     <div class="card lrg subhead-1 col-num">
-                        <h2>MON PARCOURS</h2>
-                        <p><strong>2014</strong> : Baccalauréat scientifique</p>
-                        <p><strong>2016-2017</strong> : FSJ(service social) à Tübingen en Allemagne</p>
-                        <p><strong>2017-2020</strong> : Formation kinésithérapie à Emmendingen en Allemagne</p>
-                        <p><strong>2020-2021</strong> : École de développement web à LaPlateforme_ Marseille</p>
+                        <h2>MY ACADEMIC BACKGROUND</h2>
+                        <p><strong>2014</strong> : Scientific Baccalaureate.</p>
+                        <p><strong>2016-2017</strong> : FSJ(social service) in Tübingen in Germany</p>
+                        <p><strong>2017-2020</strong> : Studies in physical therapy in Emmendingen in Germany</p>
+                        <p><strong>2020-2021</strong> : web developer School in LaPlateforme_ Marseille</p>
                     </div>
 
                     <div class="card item-1 med">
                         <h2>ME</h2>
-                        <p>Bonjour, je m'appelle Alicia Cordial, je suis une élève de développement web à LaPlateforme_ basée à Marseille. Je préfère faire du front-end. J'aime faire des projets qui ont une esthétique unique au site.</p>
+                        <p>Hi, my name is Alicia Cordial, I'm a fullstack web developer Student, based in Marseille. If I have to choose, I prefer to do the front-end part. I really enjoy doing Projects with a unique Design, aesthetic and an essence.</p>
                     </div>
 
                     <div class="card item-2 sm">
-                        <h2>MES PASSIONS</h2>
-                        <p>peinture</p>
-                        <p>couture</p>
-                        <p>yoga</p>
-                        <p>l'art, la culture, l'architecture</p>
-                        <p>voyager</p>
-                        <p>l'Histoire</p>
+                        <h2>WHAT I LOVE</h2>
+                        <p>Painting</p>
+                        <p>Sewing</p>
+                        <p>Yoga</p>
+                        <p>Art, Culture, architecture</p>
+                        <p>Travel</p>
+                        <p>History</p>
                     </div>
 
                     <div class="card item-3 sm">
                         <h2>FOLLOW</h2>
-                        <a href="https://github.com/alicia-cordial/"><p>Suivez mes projets sur Github</p><img src="../image/icons8-github-30.png" alt="github" width="30px"></a>
+                        <a href="https://github.com/alicia-cordial/"><p>Come and see my Projects here!</p><img src="../image/icons8-github-30.png" alt="github" width="30px"></a>
                     </div>
 
                     <div class="card item-4 sm">

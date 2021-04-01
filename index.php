@@ -82,7 +82,7 @@ session_start();
 
     <section class="me" id="apropos">
         <article class="texte_pres">
-            <h3>Hello, my name is Alicia.</h3>
+            <h3>Hello, my name is Alicia Cordial.</h3>
                 <h3>I'm a fullstack web developer Student, based in Marseille.</h3>
         </article>
 
@@ -241,7 +241,7 @@ session_start();
 
         <section class="production">
             <p>Alicia Cordial</p>
-            <p>School : LaPlateforme_ Marseille</p>
+            <p>School: LaPlateforme_ Marseille</p>
             <p>alicia.cordial@laplateforme.io</p>
         </section>
 

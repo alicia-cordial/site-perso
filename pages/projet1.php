@@ -40,16 +40,17 @@ session_start();
 
     <section class="texte">
 
-        <h1>LE JEU DU MEMORY</h1>
+        <h1>MEMORY GAME</h1>
 
-        <p>Faire le jeu du mémory sur une base d'un jeu de min 3 paires.</p>
-        <p>Projet réalisé avec May.</p>
-        <p>Nous avons décidé de partir sur un mélange de jeu de divinité et le jeu du mémory.</p>
-        <p>Nous avons utilisé pour créer ce site</p>
-        <li>HTML et CSS (+Materialize pour le header) pour le design et la partie front-end</li>
-        <li>PHP et SQL pour le back-end </li>
-        <a href="https://alicia-cordial.students-laplateforme.io/memory/">N'hésitez pas à essayer ce merveilleux jeu avec ce lien !</a>
-        <a href="https://github.com/huongmay-nguyenphuoc">Lien github de May</a>
+        <p>Create a Memory Game with at least 3 pairs.</p>
+        <p>Project in Collab with May.</p>
+        <p>To do the Website, we used:</p>
+        <ul>
+        <li>HTML and CSS (+Materialize for the header), for the Design and front-end part.</li>
+        <li>PHP and SQL for the back-end. </li>
+        </ul>
+        <a href="https://alicia-cordial.students-laplateforme.io/memory/">Don't hesitate to go check our awesome Game here!!</a>
+        <a href="https://github.com/huongmay-nguyenphuoc"> May Github link</a>
     </section>
 </main>
 
