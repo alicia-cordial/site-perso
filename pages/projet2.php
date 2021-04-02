@@ -49,7 +49,8 @@ session_start();
         <li>HTML and CSS for the Design et the front-end part.</li>
         <li>PHP and SQL for the back-end. </li>
         </ul>
-        <p>Don't forget to check my Website to see the result!</p>
+
+        <a href="https://alicia-cordial.students-laplateforme.io/work/reservation-salles/">Don't forget to check my Website to see the result!</a>
     </section>
 
     </main>
