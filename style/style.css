@@ -58,6 +58,9 @@ article {
 
 
 
+
+
+
 /*************************PORTFOLIO************************************/
 
 
@@ -71,6 +74,7 @@ article {
     margin-right:20px;
     z-index: 1;
 
+
 }
 
 .background_change .btn{
@@ -78,7 +82,18 @@ article {
     flex-direction: column;
     position: fixed;
     margin: 15px;
+    backdrop-filter: blur(10px);
+    padding-right: 30px;
 }
+
+.btn:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-right: 30px;
+}
+
+
+
+
 .background_change button {
     display:block;
     height: 20px;
@@ -151,16 +166,21 @@ article {
     top: 5%;
     right: 0;
     z-index: 0;
+
 }
 
 
 .scroll_to_top a{
     background-color: transparent;
+    backdrop-filter: blur(10px);
 
 }
 
 
 
+.scroll_to_top a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
 
 
 /***********ARROW********************/
