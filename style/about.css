@@ -88,7 +88,7 @@ article {
     flex-direction: column;
     max-width: 90%;
     padding: calc(6% + 1.9vmin);
-    height: 1400px;
+   max-height: 1600px;
 }
 
 
