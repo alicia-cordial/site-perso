@@ -25,7 +25,7 @@ session_start();
     <link rel= "stylesheet" type="text/css" href= "../style/about.css">
     <link rel= "stylesheet" type="text/css" href= "../style/footer.css">
 
-    <title> <?= $title ?> - Alicia Cordial</title>
+    <title> <?= $title ?> - Alicia Cordial- développeuse Web Full Stack</title>
 </head>
 
 
