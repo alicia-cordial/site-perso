@@ -12,6 +12,7 @@
     <link rel= "stylesheet" type="text/css" href= "../style/header.css">
     <link rel= "stylesheet" type="text/css" href= "../style/projets.css">
     <link rel= "stylesheet" type="text/css" href= "../style/footer.css">
+    <link rel="short icon" href="../image/icons8-aquarius-30.png"/>
 
     <title> <?= $title ?> - Alicia Cordial - développeuse Web Full Stack</title>
 </head>
