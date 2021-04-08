@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Alicia Cordial">
+    <meta name="description" content="Alicia Cordial actuellement en formation fullStack de developpemnt web à laPlateforme à Marseille. Recherche une alternance pour septembre 2021">
+    <meta name="Alicia Cordial" content="index,follow">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata&display=swap" rel="stylesheet">
     <link rel= "stylesheet" type="text/css" href= "../style/header.css">
