@@ -9,7 +9,7 @@ session_start();
 ?>
 
 
-    <!--------------------------------HEADER---------------------------->
+<!--------------------------------HEADER---------------------------->
 <!doctype html>
 <html lang="en">
 
@@ -58,54 +58,71 @@ session_start();
 <main class="about_me">
 
     <div>
-    <h1>ABOUT ME</h1>
+        <h1>ABOUT ME</h1>
 
     </div>
 
-        <div class="flexbox">
-            <div class="">
-                <div id="grid" class="grid-wrapper">
+    <div class="flexbox">
+        <div class="">
+            <div id="grid" class="grid-wrapper">
 
-                    <div class="card lrg subhead-1 col-num">
-                        <h2>MY ACADEMIC BACKGROUND</h2>
-                        <p><strong>2014</strong> : Scientific Baccalaureate.</p>
-                        <p><strong>2017-2020</strong> : Studies in physical therapy in Emmendingen in Germany</p>
-                        <p><strong>2020-2021</strong> : web developer School in LaPlateforme_ Marseille</p>
-                    </div>
+                <div class="card lrg subhead-1 col-num">
+                    <h2>MY ACADEMIC BACKGROUND</h2>
+                    <p><strong>2020-2021</strong> : Coding School in LaPlateforme_ Marseille</p>
+                    <p><strong>2017-2020</strong> : Studies in physical therapy in Emmendingen in Germany</p>
+                    <p><strong>2014</strong> : Scientific Baccalaureate.</p>
 
-                    <div class="card item-1 med">
+                    <h2>MY JOB BACKGROUND</h2>
+                    <p><strong>2020-2021</strong> : Different Projects in my Coding School in LaPlateforme_ Marseille</p>
+                    <p><strong>2016-2020</strong> : Training in physical therapy in different Hospitals in Germany</p>
+                    <p><strong>2015-2016</strong> : FSJ(social service) in Tübingen in Germany</p>
+                </div>
 
-                        <h2>ME</h2>
-                        <p>Hi, my name is Alicia Cordial, I'm a fullstack web developer Student, based in Marseille. If I have to choose, I prefer to do the front-end part. I really enjoy doing Projects with a unique Design, aesthetic and an essence.</p>
-                    </div>
+                <div class="card item-1 med">
+                    <h2>THE LANGUAGES I USE</h2>
 
-                    <div class="card item-2 sm">
-                        <h2>MY JOB BACKGROUND</h2>
-                        <p><strong>2015-2016</strong> : FSJ(social service) in Tübingen in Germany</p>
-                        <p><strong>2016-2020</strong> : Training in physical therapy in different Hospitals in Germany</p>
-                        <p><strong>2020-2021</strong> : Different Projects in my Coding School in LaPlateforme_ Marseille</p>
-                        <a href="https://github.com/alicia-cordial/"><p>Come and see my Projects here!</p><img src="../image/icons8-github-30.png" alt="github" width="30px"></a>
-                    </div>
+                    <h3>FRONT-END</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                    </ul>
 
-                    <div class="card item-3 sm">
-                        <h2>WHAT I LOVE</h2>
-                        <p>Painting</p>
-                        <p>Sewing</p>
-                        <p>Yoga</p>
-                        <p>Art, Culture, Architecture</p>
-                        <p>Travel</p>
-                        <p>History</p>
-                    </div>
+                    <h3>BACK-END</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                    </ul>
 
-                    <div class="card item-4 sm">
-                        <h2>CONTACT</h2>
-                        <p>ALICIA CORDIAL</p>
-                        <a href="mailto:alicia.cordial@laplateforme.io">alicia.cordial@laplateforme.io<img src="../image/icons8-important-mail-100.png" width="30px" alt="mail"/></a>
-                        <a href="https://www.linkedin.com/in/alicia-cordial-0538b8205/"><p>Linkedin</p><img src="../image/icons8-linkedin-26.png" alt="github" width="30px"></a>
-                    </div>
+                </div>
+
+                <div class="card item-2 sm">
+                    <h2>ME</h2>
+                    <p>Hi, my name is Alicia Cordial, I'm a fullstack web developer Student, based in Marseille. If I have to choose, I prefer to do the front-end part. I really enjoy doing Projects with a unique Design, aesthetic and an essence.</p>
+                </div>
+
+                <div class="card item-3 sm">
+                    <h2>WHAT I LOVE</h2>
+                    <p>Painting</p>
+                    <p>Sewing</p>
+                    <p>Yoga</p>
+                    <p>Art, Culture, Architecture</p>
+                    <p>Travel</p>
+                    <p>History</p>
+                </div>
+
+                <div class="card item-4 sm">
+                    <h2>CONTACT</h2>
+                    <p>ALICIA CORDIAL</p>
+                    <a href="https://laplateforme.io/">More informations about my school</a>
+                    <a href="mailto:alicia.cordial@laplateforme.io">alicia.cordial@laplateforme.io<img src="../image/icons8-important-mail-100.png" width="30px" alt="mail"/></a>
+                    <a href="https://www.linkedin.com/in/alicia-cordial-0538b8205/">Linkedin<img src="../image/icons8-linkedin-26.png" alt="github" width="30px"></a>
+                    <a href="https://github.com/alicia-cordial/">Github<img src="../image/icons8-github-30.png" alt="github"/></a>
+
+                </div>
             </div>
         </div>
-
+    </div>
 
 </main>
 

@@ -119,7 +119,7 @@ session_start();
                     <img src="./image/php.png" alt="php"/>
 
                 </section>
-
+                <h3>All the tools I use</h3>
             <section class="column">
                 <img src="./image/icons8-sql-96.png" alt="sql"/>
                 <img src="./image/github.png" alt="github"/>

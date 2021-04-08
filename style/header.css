@@ -27,6 +27,8 @@ header li, a {
     list-style: none;
     outline: 0;
     display: none;
+    border-collapse: collapse;
+    border: 3px solid transparent;
 }
 header li {
     width: 230px;
@@ -128,6 +130,7 @@ header li:hover{
 #home a:hover{
     border-collapse: collapse;
     border: 3px solid mediumspringgreen;
+
 }
 
 #project1 a:hover{
