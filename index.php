@@ -116,14 +116,21 @@ session_start();
                     <img src="./image/html5.png" alt="html"/>
                     <img src="./image/css3.png" alt="css"/>
                     <img src="./image/js.png" alt="js"/>
-                    <img src="./image/php.png" alt="php"/>
+                </section>
 
+                <section class="column">
+                    <img src="./image/php.png" alt="php"/>
+                    <img src="./image/icons8-sql-96.png" alt="sql"/>
+                    <img src="./image/icons8-wordpress-128.png" alt="wordpress"/>
                 </section>
                 <h3>All the tools I use</h3>
             <section class="column">
-                <img src="./image/icons8-sql-96.png" alt="sql"/>
+                
                 <img src="./image/github.png" alt="github"/>
-                <img src="./image/icons8-wordpress-128.png" alt="wordpress"/>
+                <img src="./image/plesk.png" width="150px" alt="plesk"/>
+                <img src="./image/materialize.png" alt="materialize" width="150px"/>
+                <img src="./image/ps.png" width="150px" alt="webstorm"/>
+                
             </section>
 
             </article>
