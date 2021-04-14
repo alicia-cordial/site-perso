@@ -52,7 +52,7 @@ session_start();
         <li>HTML and CSS for the Design et the front-end part</li>
         <li>PHP and SQL for the back-end.</li>
         </ul>
-        <a href="https://alicia-cordial.students-laplateforme.io/work/boutique/">Don't forget to test our E-Shop !</a>
+        <a href="https://alicia-cordial.students-laplateforme.io/boutique/">Don't forget to test our E-Shop !</a>
         <a href="https://github.com/huongmay-nguyenphuoc"><p>Link to May's Github</p></a>
     </section>
 

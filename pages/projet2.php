@@ -50,7 +50,7 @@ session_start();
         <li>PHP and SQL for the back-end. </li>
         </ul>
 
-        <a href="https://alicia-cordial.students-laplateforme.io/work/reservation-salles/">Don't forget to check my Website to see the result!</a>
+        <a href="https://alicia-cordial.students-laplateforme.io/reservation-salles/">Don't forget to check my Website to see the result!</a>
     </section>
 
     </main>

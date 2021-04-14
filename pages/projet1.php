@@ -49,7 +49,7 @@ session_start();
         <li>HTML and CSS (+Materialize for the header), for the Design and front-end part.</li>
         <li>PHP and SQL for the back-end. </li>
         </ul>
-        <a href="https://alicia-cordial.students-laplateforme.io/work/memory/">Don't hesitate to go check our awesome Game here!!</a>
+        <a href="https://alicia-cordial.students-laplateforme.io/memory/">Don't hesitate to go check our awesome Game here!!</a>
         <a href="https://github.com/huongmay-nguyenphuoc"> May Github link</a>
     </section>
 </main>
