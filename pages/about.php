@@ -26,7 +26,7 @@ session_start();
     <meta name="Alicia Cordial" content="index,follow">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata&display=swap" rel="stylesheet">
-    <link rel= "stylesheet" type="text/css" href= "../style/header.css">
+
     <link rel= "stylesheet" type="text/css" href= "../style/about.css">
     <link rel= "stylesheet" type="text/css" href= "../style/footer.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
