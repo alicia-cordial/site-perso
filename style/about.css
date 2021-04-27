@@ -45,12 +45,6 @@ article {
     }
     /***************************************ABOUT**************************/
     
-    .about_me,
-    .about_me::before,
-    .about_me::after {
-        box-sizing: border-box;
-    }
-    
     .about_me {
         display: flex;
         flex-direction: row;
@@ -173,7 +167,10 @@ article {
         cursor: pointer;
         border: 1px solid black;
         box-shadow: 1px 1px 1px black;
-        padding: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 25px;
+        padding-left: 25px;
         align-items: center;
         justify-content: center;
         align-content: center;

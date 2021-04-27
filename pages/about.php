@@ -10,6 +10,9 @@ session_start();
 
 
 <!--------------------------------HEADER---------------------------->
+
+
+
 <!doctype html>
 <html lang="en">
 
@@ -26,11 +29,9 @@ session_start();
     <link rel= "stylesheet" type="text/css" href= "../style/header.css">
     <link rel= "stylesheet" type="text/css" href= "../style/about.css">
     <link rel= "stylesheet" type="text/css" href= "../style/footer.css">
-    <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <link rel="short icon" href="../image/icons8-aquarius-30.png"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<link rel="short icon" href="../image/icons8-aquarius-30.png"/>
 
     <title> <?= $title ?> - Alicia Cordial- développeuse Web Full Stack</title>
 </head>
@@ -39,26 +40,29 @@ session_start();
 <body class="<?= $bodyname ?>">
 
 <header>
+<nav class="pink lighten-3">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">ABOUT</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+            <li id="home"><a href="../index.php"><p>-Fresh start-</p></a></li>
+            <li id="project1"><a href="../pages/projet1.php"><p>-Memory-</p></a></li>
+            <li id="project2"><a href="../pages/projet2.php"><p>-Hall Booking-</p></a></li>
+            <li id="project3"><a href="../pages/projet3.php"><p>-Gamebusters-</p></a></li>
+            <li id="aboutme"><a href="../pages/about.php"><p>-Learn more about me-</p></a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <nav>
-        <input type="checkbox" id="menu-toggle"/>
-        <label id="trigger" for="menu-toggle"></label>
-        <label id="burger" for="menu-toggle"></label>
-        <ul id="menu">
-            <li id="home"><a href="../index.php"><h2>HOME</h2><p>-Fresh start-</p></a></li>
-            <li id="project1"><a href="../pages/projet1.php"><h2>WORK 1</h2><p>-Memory-</p></a></li>
-            <li id="project2"><a href="../pages/projet2.php"><h2>WORK 2</h2><p>-Hall Booking-</p></a></li>
-            <li id="project3"><a href="../pages/projet3.php"><h2>WORK 3</h2><p>-Gamebusters-</p></a></li>
-            <li id="aboutme"><a href="../pages/about.php"><h2>ABOUT ME</h2><p>-Learn more about me-</p></a></li>
-
-        </ul>
-    </nav>
-
+  <ul class="sidenav" id="mobile-demo">
+  <li id="home"><a href="../index.php"><p>HOME-Fresh start-</p></a></li>
+            <li id="project1"><a href="../pages/projet1.php"><p>-Memory-</p></a></li>
+            <li id="project2"><a href="../pages/projet2.php"><p>-Hall Booking-</p></a></li>
+            <li id="project3"><a href="../pages/projet3.php"><p>-Gamebusters-</p></a></li>
+            <li id="aboutme"><a href="../pages/about.php"><p>-Learn more about me-</p></a></li>
+  </ul>
+          
 </header>
-
-
-
-
 <main class="about_me">
 
     <div>
@@ -129,8 +133,6 @@ session_start();
         <a href="https://github.com/alicia-cordial/">Github<img src="../image/icons8-github-30.png" alt="github"/></a>
         <button><a href="../CV/ALICIA CORDIAL.pdf">CV</button>
 
-
-
     </div>
   
   </div>
@@ -144,7 +146,6 @@ session_start();
 
 
           
- 
 
 <!-------------------------FOOTER-------------------------------------->
 
