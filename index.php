@@ -225,11 +225,10 @@ session_start();
             <a href="mailto:alicia.cordial@laplateforme.io"><img src="./image/icons8-important-mail-100.png" alt="mail"/></a>
             </article>
 
-
+            
         </section>
 
-
-
+    
     <!-------------------SCROLL------------------------------------------->
 
     <section class="scroll_to_top">
@@ -258,7 +257,8 @@ session_start();
     </article>
 </footer>
 
-
+<script src="https://kit.fontawesome.com/9ddb75d515.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
