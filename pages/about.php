@@ -131,7 +131,7 @@ session_start();
         <a href="mailto:alicia.cordial@laplateforme.io">alicia.cordial@laplateforme.io<img src="../image/icons8-important-mail-100.png" width="30px" alt="mail"/></a>
         <a href="https://www.linkedin.com/in/alicia-cordial-0538b8205/">Linkedin<img src="../image/icons8-linkedin-26.png" alt="github" width="30px"></a>
         <a href="https://github.com/alicia-cordial/">Github<img src="../image/icons8-github-30.png" alt="github"/></a>
-        <button><a href="../CV/ALICIA CORDIAL.pdf">CV</button>
+        <button><a href="../CV/ALICIA CORDIAL.pdf">Pour voir mon CV</button>
 
     </div>
   

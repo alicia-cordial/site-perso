@@ -169,6 +169,7 @@ article {
     .item-4 {
         background-color: skyblue;
         border: solid black;
+        margin-bottom: 10px;
     }
     
     .item-4 a,
@@ -193,7 +194,7 @@ article {
         border: 1px solid black;
         box-shadow: 1px 1px 1px black;
         padding-top: 2px;
-        padding-bottom: px;
+        padding-bottom: 5px;
         padding-right: 25px;
         padding-left: 25px;
         align-items: center;
