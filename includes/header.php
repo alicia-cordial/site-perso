@@ -29,7 +29,7 @@
         <label id="trigger" for="menu-toggle"></label>
         <label id="burger" for="menu-toggle"></label>
         <ul id="menu">
-            <li id="home"><a href="../index.php"><h2>HOME</h2><p>-Fresh start-</p></a></li>
+            <li id="home"><a href="../index.html"><h2>HOME</h2><p>-Fresh start-</p></a></li>
             <li id="project1"><a href="../pages/projet1.php"><h2>WORK 1</h2><p>-Memory-</p></a></li>
             <li id="project2"><a href="../pages/projet2.php"><h2>WORK 2</h2><p>-Hall booking-</p></a></li>
             <li id="project3"><a href="../pages/projet3.php"><h2>WORK 3</h2><p>-Gamebusters-</p></a></li>

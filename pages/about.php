@@ -45,7 +45,7 @@ session_start();
       <a href="#!" class="brand-logo">ABOUT</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-            <li id="home"><a href="../index.php"><p>-Fresh start-</p></a></li>
+            <li id="home"><a href="../index.html"><p>-Fresh start-</p></a></li>
             <li id="project1"><a href="../pages/projet1.php"><p>-Memory-</p></a></li>
             <li id="project2"><a href="../pages/projet2.php"><p>-Hall Booking-</p></a></li>
             <li id="project3"><a href="../pages/projet3.php"><p>-Gamebusters-</p></a></li>
@@ -55,7 +55,7 @@ session_start();
   </nav>
 
   <ul class="sidenav" id="mobile-demo">
-  <li id="home"><a href="../index.php"><p>HOME-Fresh start-</p></a></li>
+  <li id="home"><a href="../php"><p>HOME-Fresh start-</p></a></li>
             <li id="project1"><a href="../pages/projet1.php"><p>-Memory-</p></a></li>
             <li id="project2"><a href="../pages/projet2.php"><p>-Hall Booking-</p></a></li>
             <li id="project3"><a href="../pages/projet3.php"><p>-Gamebusters-</p></a></li>
